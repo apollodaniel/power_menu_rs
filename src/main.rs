@@ -1,4 +1,4 @@
-use gtk::{prelude::{ApplicationExt, ApplicationExtManual, WidgetExt, ContainerExt, BoxExt, ButtonExt}, gdk::{ffi::GDK_KEY_Escape, keys::constants::Escape}};
+use gtk::{prelude::{ApplicationExt, ApplicationExtManual, WidgetExt, ContainerExt, BoxExt, ButtonExt}};
 fn main() {
     let application = gtk::Application::builder().application_id("org.apollo.power_menu_rs").build();
 
