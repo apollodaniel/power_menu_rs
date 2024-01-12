@@ -1,5 +1,3 @@
-use std::any::Any;
-
 use gtk::{prelude::{ApplicationExt, ApplicationExtManual, WidgetExt, ContainerExt, BoxExt, ButtonExt}, gdk::{ffi::GDK_KEY_Escape, keys::constants::Escape}};
 fn main() {
     let application = gtk::Application::builder().application_id("org.apollo.power_menu_rs").build();
